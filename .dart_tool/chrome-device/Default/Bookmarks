@@ -1,0 +1,90 @@
+{
+   "checksum": "b7631750153be955bd44ed5d3bfdc671",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13371713457391704",
+            "date_last_used": "0",
+            "guid": "a1343bb5-165e-496e-903f-4f9dc3326ccc",
+            "id": "7",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "S6 - Ch. 1 Algorithmes sur les arbres - Bloc-notes NSI",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://nsi.flallemand.fr/terminale/06_algo_1/algos_arbres/cours/#:~:text=Hauteur%20d'un%20arbre%E2%9A%93%EF%B8%8E.%20La%20hauteur%20d'un%20arbre%20est",
+            "visit_count": 0
+         }, {
+            "date_added": "13373194291322828",
+            "date_last_used": "13417475949065796",
+            "guid": "2b0f70a5-34ce-474e-8bee-16af3f46cfce",
+            "id": "8",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "21 Savage - a lot (Official Video) ft. J. Cole - YouTube",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=DmWWqogr_r8&list=RDacYUqMd9k2I&index=2",
+            "visit_count": 69
+         }, {
+            "date_added": "13413924932408491",
+            "date_last_used": "0",
+            "guid": "615bae30-b85f-45b2-8641-c8e42e8a3089",
+            "id": "9",
+            "name": "NewbieContest : Challenge informatique francophone",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://www.newbiecontest.org/index.php?page=epreuve&no=121",
+            "visit_count": 1
+         } ],
+         "date_added": "13417648572539904",
+         "date_last_used": "0",
+         "date_modified": "13413924932408491",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Barre des favoris",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13417648572539904",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Autres favoris",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13417648572539904",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Favoris de l’appareil mobile",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "workspaces_v2": {
+         "children": [  ],
+         "date_added": "13417648572539904",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "75aa6670-344f-549d-b742-660f029506ab",
+         "id": "5",
+         "name": "Espaces de travail",
+         "source": "unknown",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CjEKDgiIgQISCBHnLM+cAQAAEgAqGGV6Q1NvdzVTR0hsQnlIdHRhQ3U1eHc9PUgDoAYHEo4BCAMSiQEKHG5qZ0R1ODhlQ3J2WHA4NnBEN2ZIR2NxRnA4OD0SJGI4ZDliNjU1LTNiNzQtNWMwOC04MTAxLTFkOWMxYzdlOGFkMhgAIAAoADCTr6iVpTI4trSolaUyQLa0qJWlMkoceXpOQjAxY241NEE3Y1JVMHVUKy9QZ21UdFVvPVoAZQAAAADCPgJgABKsAQgHEqcBChxCenVnd2lsTXRXSVA2dHVKaWh1MTFPSHg2Nzg9EiRhMTM0M2JiNS0xNjVlLTQ5NmUtOTAzZi00ZjlkYzMzMjZjY2MYACAAKAAwir7O19gyOMT3qJWlMkDE96iVpTJKHEFqUytUT1Q0a1N1Wld3T2hNZEw0MXNNbHQzMD1aHiIcRi9mTjFZZWdpdVlLczFzcTF2YjVjeVNNeHVFPWWwZr6fwj4CYAUSrAEICBKnAQocYnJockRSMmpSUW9Xb2x4TU5hZk9SZ2xrM3pFPRIkMmIwZjcwYTUtMzRjZS00NzRlLThiZWUtMTZhZjNmNDZjZmNlGAAgACgAMJDOs/nMMzjP3IuAqDJAz9yLgKgyShx2UUdIeCt4enJ4MG9KU3VFTS8ra0pqTkkwRFE9Wh4iHGhBQUwvWUs5L1dtREpnKzZxUjIwZVNqMnZtaz1lQ/htgMI+AmAFEq0BCAkSqAEKHFlSbVNOSGpRbVo2ZGYwT29nVURSWGUrZlZHWT0SJDYxNWJhZTMwLWI4NWYtNDViMi04NjQxLWM4ZTQyZThhMzA4ORgAIAAoADCC1pLcvzM4pr2S3L8zQKa9kty/M0ocdkJsUXg3YXg3SjQ1NlZBOEh0NkMrcllrUkU0PVofIh20VXNCM1lwWFV3Z3V6UE9OUkVkSWpEZ3NXQU80PWVK62cUwj4CYAUSjgEIARKJAQoceXhKLzZmdmtlY3I3a3A1RVF6QjR0V0xwZGJFPRIkMzI0ODY4NzktODRmZi01MTJjLWIyM2EtMjNjNzQxYmFjMDM3GAAgACgAMI2vqJWlMjiFs6iVpTJAhbOolaUyShxhUkNXTGdoRjliNUlucUtJRHZ1Si9qdlFrRmM9WgBlAAAAAMI+AmAAEo4BCAUSiQEKHHdSQnJaTCs2UEE5YXZLZ2pOUDdKWERMY2Z2cz0SJGZmNTEwMGFlLTZjZDYtNTFjYi04MTU0LTYzZjU0YjExMjA2MxgAIAAoADDa0vv9kDM4hdP7/ZAzQIXT+/2QM0ocbm14NjVzUUR2eEk4VGdFZXYrQStudHRvU240PVoAZQAAAADCPgJgABKOAQgCEokBChxZY1NUb252RVNQd3FDczRMMmNyVmh2NjhMOTg9EiQ5N2VlMDlhYS01NjUxLTUxY2YtYjE4YS05OGJlMTNiN2U5ZjcYACAAKAAwjq+olaUyONOzqJWlMkDTs6iVpTJKHG9QVmtod0JSYlY2NUtDV1IyK0lPTkhXb091OD1aAGUAAAAAwj4CYAAwADgA",
+   "version": 1
+}
