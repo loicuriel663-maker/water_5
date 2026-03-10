@@ -1,204 +1,117 @@
-Water 5 — Smart Irrigation App
-Intelligence Artificielle pour l’irrigation agricole
+# Water 5 — Application Flutter
+## Irrigation Intelligente par IA — AgroIrri CI
 
-Application Flutter permettant d’aider les agriculteurs à optimiser l’irrigation grâce à l’IA, aux capteurs et aux prévisions météo.
+---
 
-Développé dans le cadre du projet AgroIrri CI.
+## Structure du projet
 
-📱 Aperçu de l'application
-
-Fonctionnalités principales :
-
-📊 Dashboard intelligent
-
-🌧 Prévisions météo agricoles
-
-🌱 Analyse de l’humidité du sol
-
-📈 Historique des décisions d’irrigation
-
-🚨 Alertes et notifications SMS
-
-⚙️ Paramétrage des capteurs et du modèle IA
-
-🧠 Architecture du projet
+```
 water5/
 ├── lib/
-│   ├── main.dart
-│   │
+│   ├── main.dart                    # Point d'entrée — routes — thème
 │   ├── theme/
-│   │   └── app_theme.dart
-│   │
+│   │   └── app_theme.dart           # Palette W5Colors + ThemeData
 │   ├── models/
-│   │   └── models.dart
-│   │
+│   │   └── models.dart              # IrrigationDecision, DayForecast, HistoryEntry, AppAlert
 │   ├── widgets/
-│   │   └── common_widgets.dart
-│   │
+│   │   └── common_widgets.dart      # GlassCard, MetricCard, ForecastCard, SoilGauge...
 │   └── screens/
-│       ├── splash_screen.dart
-│       ├── loading_screen.dart
-│       ├── main_screen.dart
-│       ├── dashboard_screen.dart
-│       ├── history_screen.dart
-│       ├── alerts_screen.dart
-│       └── settings_screen.dart
-│
+│       ├── splash_screen.dart       # Écran d'accueil avec animations
+│       ├── loading_screen.dart      # Chargement 5 étapes animées
+│       ├── main_screen.dart         # Shell avec AppBar + BottomNav
+│       ├── dashboard_screen.dart    # Tableau de bord principal
+│       ├── history_screen.dart      # Historique des décisions
+│       ├── alerts_screen.dart       # Alertes + SMS M. Koffi
+│       └── settings_screen.dart     # Paramètres parcelle/capteur/IA
 └── pubspec.yaml
-🎨 Design System
+```
 
-Palette basée sur un vert agricole naturel.
+---
 
-Variable	Couleur	Usage
-g300	#a8e063	Couleur principale
-g700	#00a05a	Gradient
-g800	#007542	Vert foncé
-g900	#002a14	Texte
-bg	#0a1a10	Fond
-accent	#c8a96e	Or (notifications)
-warn	#e05a3a	Alertes
-sky	#6ec4d4	Informations météo
-📦 Packages Flutter utilisés
-Package	Utilisation
-google_fonts	Typographie moderne
-fl_chart	Graphiques
-provider	Gestion d'état
-shared_preferences	Stockage local
-intl	Formatage dates
-animate_do	Animations UI
-📲 Écrans de l'application
-Splash Screen
+## Palette de couleurs — #a8e063 dominante
 
-Logo animé et présentation de l'application.
+| Variable     | Hex       | Usage                        |
+|--------------|-----------|------------------------------|
+| g300         | #a8e063   | Couleur principale vert clair|
+| g700         | #00a05a   | Vert moyen (gradients)       |
+| g800         | #007542   | Vert foncé                   |
+| g900         | #002a14   | Vert très foncé (texte/fond) |
+| bg           | #0a1a10   | Fond écran                   |
+| accent       | #c8a96e   | Or (SMS, profil)             |
+| warn         | #e05a3a   | Alerte/NON irriguier         |
+| sky          | #6ec4d4   | Info (pluie, prévisions)     |
 
-Loading Screen
+---
 
-Chargement des services :
+## Installation
 
-API météo
+```bash
+# 1. Installer Flutter SDK 3.x+
+# https://flutter.dev/docs/get-started/install
 
-Connexion Arduino
-
-Calcul ET₀
-
-Modèle IA
-
-Service SMS
-
-Dashboard
-
-Vue principale :
-
-Décision d’irrigation
-
-Métriques du sol
-
-Prévisions météo
-
-Graphiques agricoles
-
-Historique
-
-Historique des décisions :
-
-Statistiques mensuelles
-
-Liste chronologique
-
-Visualisation graphique
-
-Alertes
-
-Gestion des alertes :
-
-Notifications
-
-SMS agriculteur
-
-Alertes irrigation
-
-Paramètres
-
-Configuration :
-
-Profil agriculteur
-
-Parcelle
-
-Capteurs Arduino
-
-Modèle IA
-
-⚙️ Installation
-1️⃣ Installer Flutter
-
-Installer le SDK Flutter :
-
-https://flutter.dev/docs/get-started/install
-2️⃣ Cloner le projet
-git clone https://github.com/loicuriel663-maker/water_5.git
+# 2. Cloner / ouvrir le dossier
 cd water5
-3️⃣ Installer les dépendances
+
+# 3. Installer les dépendances
 flutter pub get
-4️⃣ Lancer l'application
+
+# 4. Lancer sur émulateur ou appareil
 flutter run
-🏗 Build
-Android
+
+# 5. Build release Android
 flutter build apk --release
-iOS (macOS requis)
+
+# 6. Build release iOS (macOS requis)
 flutter build ios --release
-Web
+
+# 7. Build Web (PC/navigateur)
 flutter build web --release
-🔗 Intégration future
-Backend IA
+```
 
-API Python avec FastAPI :
+---
 
-/decision
-/history
-/sensors
-Capteurs
+## Packages utilisés
 
-Connexion avec Arduino via USB :
+| Package              | Usage                              |
+|---------------------|------------------------------------|
+| google_fonts         | DM Sans + Cormorant Garamond       |
+| fl_chart             | Graphiques (à étendre)             |
+| provider             | State management                   |
+| shared_preferences   | Préférences locales                |
+| intl                 | Formatage dates                    |
+| animate_do           | Animations supplémentaires         |
 
-flutter_libserialport
-SMS
+---
 
-Africa's Talking
+## Écrans
 
-flutter_sms
+1. **Splash** — Logo animé W, cartes stats, bouton Demarrer
+2. **Loading** — 5 étapes séquentielles (API, Arduino, ETc, ML, SMS)
+3. **Dashboard** — Décision hero, 5 métriques, jauge sol, prévisions 4 jours
+4. **Historique** — Stats mensuelles, liste chronologique, bande couleur
+5. **Alertes** — Toggle SMS, aperçu SMS M. Koffi, 4 notifications
+6. **Réglages** — Profil, parcelle, Arduino, notifications, modèle IA
 
-Notifications
-flutter_local_notifications
-♿ Accessibilité
+---
 
-L'application respecte plusieurs principes d’accessibilité :
+## Intégration future
 
-Semantics() sur les éléments interactifs
+- **Backend** : FastAPI Python → endpoints REST `/decision`, `/history`, `/sensors`
+- **Serial** : `flutter_libserialport` pour lecture Arduino USB
+- **SMS** : `Africa's Talking` API ou `flutter_sms`
+- **Notifications** : `flutter_local_notifications`
+- **Charts** : `fl_chart` pour historique volumétrique
 
-Contraste WCAG AA
+---
 
-Interface sombre optimisée
+## Accessibilité
 
-Support mode paysage
+- `Semantics()` sur tous les éléments interactifs
+- Contraste WCAG AA sur fond sombre (#0a1a10)
+- Textes non scalables (textScaler: noScaling) — lisibilité fixe
+- Support mode paysage (landscape) activé
 
-🌍 Contexte du projet
+---
 
-Projet développé pour améliorer l’agriculture intelligente en Côte d’Ivoire, en combinant :
-
-intelligence artificielle
-
-capteurs IoT
-
-météo agricole
-
-automatisation de l’irrigation
-
-👨‍💻 Auteur
-
-Uriel Loïc
-Étudiant ingénieur informatique — INP-HB
-
-📍 Yamoussoukro — Côte d’Ivoire
-
-Projet : AgroIrri CI
+**M. Koffi — Yamoussoukro, Côte d'Ivoire**
+**Water 5 v2.0 — 2026**
